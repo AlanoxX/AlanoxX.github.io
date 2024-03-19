@@ -1,0 +1,57 @@
+body {
+    background-image: url(IMG/FONDOS\ ROSAS\ NEGRAS.jpg);
+    
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 20px;
+    padding: 30px;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: aqua;
+}
+
+.menu label{
+    cursor: pointer;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: rgb(255, 0, 0);
+}
+
+
+
